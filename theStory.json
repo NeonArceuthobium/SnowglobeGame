@@ -1,0 +1,51 @@
+{
+"intro": {
+  "bgm": "rain",
+  "background": "clove_background.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "Welcome to 'The Last Snowglobe'"
+  },
+  "2": {
+    "speaker": "Narrator",
+    "text": "You've been assigned the responsibility of protecting it, by your King."
+  },
+  "3": {
+    "speaker": "Narrator",
+    "text": "Its existence keeps Russia in perpetual Winter."
+  },
+  "4": {
+    "speaker": "Narrator",
+    "text": "No one can take Russia in the Winter,"
+  },
+  "5": {
+    "speaker": "Narrator",
+    "text": "And the Dragons hate that."
+  },
+  "6": {
+    "speaker": "Narrator",
+    "text": "So they're coming for you."
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "Gather the Snowglobe, "
+  },
+  "8": {
+    "speaker": "Narrator",
+    "text": "Get to your Airship, "
+  },
+  "9": {
+    "speaker": "Narrator",
+    "text": "and protect it from a continuous onslaught of Dragons"
+  },
+  "F": {
+    "speaker": "Narrator",
+    "text": "Good Luck.",
+    "options": [
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
+  }
+}
+
+}
