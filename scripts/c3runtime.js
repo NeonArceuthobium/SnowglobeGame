@@ -1636,6 +1636,7 @@ self.C3_ExpressionFuncs = [
 		() => "DebugTools",
 		() => 2,
 		() => 3,
+		() => 4,
 		() => "PlayerControls2",
 		p => {
 			const v0 = p._GetNode(0).GetVar();
