@@ -102,6 +102,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.gamepad.Cnds.OnButtonDown,
 		C3.Plugins.System.Cnds.CompareBoolVar,
 		C3.Plugins.System.Acts.GoToLayout,
+		C3.Plugins.Audio.Acts.StopAll,
 		C3.Plugins.Audio.Acts.Play,
 		C3.Plugins.Sprite.Acts.SetVisible,
 		C3.Plugins.Text.Acts.SetVisible,
@@ -112,7 +113,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.AJAX.Exps.LastData,
 		C3.Plugins.Browser.Acts.ConsoleLog,
 		C3.Plugins.Json.Exps.ToBeautifiedString,
-		C3.Plugins.Audio.Acts.StopAll
+		C3.ScriptsInEvents.Storylayouteventsheet2_Event1_Act6
 	];
 };
 self.C3_JsPropNameTable = [
@@ -163,6 +164,14 @@ self.C3_JsPropNameTable = [
 	{Text: 0},
 	{Sprite2: 0},
 	{snowglobe: 0},
+	{Sprite3: 0},
+	{background_: 0},
+	{background_2: 0},
+	{background_3: 0},
+	{background_4: 0},
+	{background_5: 0},
+	{Sprite4: 0},
+	{Tilemap: 0},
 	{CurrentLevel: 0},
 	{GAMEPADDEADZONE: 0},
 	{TARGETFRAMERATE: 0},
@@ -189,7 +198,9 @@ self.C3_JsPropNameTable = [
 	{PrevInputUp: 0},
 	{PrevInputDown: 0},
 	{CurrentDialogue: 0},
-	{CurrentDialogueIndex: 0}
+	{CurrentDialogueIndex: 0},
+	{CurrentDialogue2: 0},
+	{CurrentDialogueIndex2: 0}
 ];
 
 self.InstanceType = {
@@ -230,5 +241,13 @@ self.InstanceType = {
 	TeleportTrigger: class extends self.ISpriteInstance {},
 	Text: class extends self.ITextInstance {},
 	Sprite2: class extends self.ISpriteInstance {},
-	snowglobe: class extends self.ISpriteInstance {}
+	snowglobe: class extends self.ISpriteInstance {},
+	Sprite3: class extends self.ISpriteInstance {},
+	background_: class extends self.ISpriteInstance {},
+	background_2: class extends self.ISpriteInstance {},
+	background_3: class extends self.ISpriteInstance {},
+	background_4: class extends self.ISpriteInstance {},
+	background_5: class extends self.ISpriteInstance {},
+	Sprite4: class extends self.ISpriteInstance {},
+	Tilemap: class extends self.ITilemapInstance {}
 }

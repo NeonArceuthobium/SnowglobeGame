@@ -1,0 +1,27 @@
+{
+"intro": {
+  "bgm": "rain",
+  "background": "clove_background.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "Collecting the Snowglobe you get on the air ship"
+  },
+  "2": {
+    "speaker": "Narrator",
+    "text": "Congrats you have completed the Last Snowglobe up to its current update"
+  },
+  "3": {
+    "speaker": "Narrator",
+    "text": "Come back soon to actually pilot the airship and fight those dragons"
+  },
+  "F": {
+    "speaker": "Narrator",
+    "text": "Good Luck.",
+    "options": [
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
+  }
+}
+
+}
